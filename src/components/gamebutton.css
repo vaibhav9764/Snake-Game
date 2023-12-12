@@ -1,0 +1,84 @@
+/* gameButtons.css */
+
+.button-container {
+  /* display: grid;
+  grid-template-areas:
+    "button1 button2"
+    "button3 button4";
+  grid-gap: 20px;
+  margin-right: 120px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300PX;
+  gap: 20PX;
+
+}
+.middle{
+  display: flex;
+  width: 300px;
+  
+
+  justify-content: space-between; 
+}
+
+button {
+  padding: 10px 20px;
+  width: 100PX;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ff00b3;
+  border: 4px solid #00fff1;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.1s;
+  /* { backgroundColor: 'rgba(0, 0, 0, 0)', color: '#ff00b3', border: '4px solid #00fff1', padding: '10px 20px', cursor: 'pointer' } */
+}
+
+.button1 {
+  grid-area: button1;
+}
+
+.button2 {
+  grid-area: button2;
+}
+
+.button3 {
+  grid-area: button3;
+}
+
+.button4 {
+  grid-area: button4;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+
+/* Responsive Website */
+@media (max-width: 500px) {
+  .button-container {
+    
+    width: 250PX;
+
+    
+  
+  }
+  button {
+  
+    width: 80PX;
+    font-size: 14px;
+
+  }
+  .middle{
+    
+    width: 250px;
+  }
+
+
+}

@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Responsive Website */
+@media (max-width: 500px) {
+  .heading{
+    font-size: 20px;
+  }
+   
+}
