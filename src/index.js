@@ -16,3 +16,10 @@ ReactDOM.createRoot(root).render(
 );
 
 reportWebVitals();
+
+
+
+{/* <BrowserRouter basename="/Snake-Game">
+      <App />
+    </BrowserRouter> */}
+

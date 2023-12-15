@@ -34,7 +34,7 @@
 
 /* Responsive Website */
 @media (max-width: 500px) {
-    .box{
+    .bx{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -49,4 +49,9 @@
         width: 304px;
         height: 304px;
     }
+  }
+
+
+  .play-btn{
+    visibility: hidden;
   }
