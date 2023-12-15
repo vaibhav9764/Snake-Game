@@ -201,9 +201,14 @@ function Game(props) {
             <button  ref={buttonEatRef} className='play-btn' onClick={eatplay}>Play Sound</button>
           </div>
         )}
-      </div>
+      </div> 
+      
     </>
   );
 }
 
 export default Game;
+
+
+
+

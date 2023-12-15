@@ -34,7 +34,7 @@
 
 /* Responsive Website */
 @media (max-width: 500px) {
-    .bx{
+    .box{
         display: flex;
         flex-direction: column;
         justify-content: center;
