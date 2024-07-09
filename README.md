@@ -1,3 +1,11 @@
+# Snake Game
+# Output
+![snake game 1](https://github.com/vaibhav9764/Snake-Game/assets/107663810/fed64d5c-0fbd-4b1a-a1e1-fa6641eabd73)
+![snake game 2](https://github.com/vaibhav9764/Snake-Game/assets/107663810/d13f0949-5815-4a60-b481-3d7c9fe4b827)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
